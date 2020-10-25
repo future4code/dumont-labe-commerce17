@@ -53,8 +53,8 @@ const AppContainer = styled.div`
 
 class App extends React.Component {
   state = {
-    filtroMin:"",
-    filtroMax: "",
+    filtroMin:"10",
+    filtroMax: "1000",
     filtroNome:'',
     produtosCarrinho: [
       
