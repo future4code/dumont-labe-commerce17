@@ -17,45 +17,45 @@ const AppContainer = styled.div`
       id: 1,
       nome: 'Produto 1',
       preco: 100,
-      foto: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRoQaZKRS4E0EAHWFIBIbDeQcjRB78D0J4qag&usqp=CAU'
+      foto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Vanguard_satellite-01.jpg/250px-Vanguard_satellite-01.jpg'
     },
     {
       id: 2,
       nome: 'Produto 2',
       preco: 200,
-      foto: 'https://yvybrasil.com/store/wp-content/uploads/2019/03/18.jpg'
+      foto: 'https://www.oficinadanet.com.br/imagens/post/14059/capa.jpg'
     },
     {
       id: 3,
       nome: 'Produto 3',
       preco: 300,
-      foto: 'https://amarotech-res.cloudinary.com/image/fetch/c_limit,f_auto,dpr_1,w_661,q_auto:best/v1/https://amaroecp-res.cloudinary.com/image/upload/v1598967945/images/bob-condicionador-em-barra-hidratacao-profunda-sem-cor-01.jpg'
+      foto: 'https://cdn-istoe-ssl.akamaized.net/wp-content/uploads/sites/14/2020/01/b4f77fcdaf5c2ce2c15836c0fbca5c9818e5aa92-418x235.jpg'
     },
     {
       id: 4,
       nome: 'Produto 4',
       preco: 400,
-      foto: 'https://amaroecp-res.cloudinary.com/image/upload/v1598967926/images/bob-shampoo-em-barra-purificante-sem-cor-01.jpg'
+      foto: 'https://lh3.googleusercontent.com/proxy/HkFhoasCYNAFPuVah-a9bpMnR4VaA_LZEbmqRwME0ZbUx5DPB4-2i45zZE6xh4pj1vY2ugzcX81Yp9uaUL8E7XX1XM91I6MBZQhSt1_W92bEVU7MGK4J26fRDECyViayNLLWbA'
     },
     {
       id: 5,
       nome: 'Produto 5',
       preco: 600,
-      foto: 'https://images-americanas.b2w.io/produtos/01/00/img/1646730/7/1646730782_2GG.jpg'
+      foto: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTL28gK5-21aFbRaIHZ-70R37r1kYL1wKUZ_g&usqp=CAU'
     },
     {
       id: 6,
       nome: 'Produto 6',
       preco: 800,
-      foto: 'https://www.toquedebrindes.com.br/media/catalog/product/cache/1/image/400x400/17f82f742ffe127f42dca9de82fb58b1/c/o/copo-fibra-de-bambu-co019-brindes-personalizados-florianopolis.jpg'
+      foto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Nimbus_rendering.jpg/250px-Nimbus_rendering.jpg'
     }
 ]
 
 class App extends React.Component {
   state = {
-    filtroMin: 10,
-    filtroMax: 1000,
-    filtroNome:'Produto',
+    filtroMin:100,
+    filtroMax: "",
+    filtroNome:'',
     produtosCarrinho: [
       
     ]

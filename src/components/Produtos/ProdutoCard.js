@@ -23,8 +23,8 @@ align-self: center;
 margin-top: 4px;`;
 
 const EstiloImg = styled.img`
-width:200px;
-height:180px`;
+width:250px;
+height:230px`;
 
 export class ProdutoCard extends React.Component{
     render(){
